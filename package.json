@@ -4,6 +4,7 @@
   "private": true,
   "author": "JackChen <278910933@qq.com>",
   "scripts": {
+    "dev": "vue-cli-service serve",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
@@ -11,6 +12,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "core-js": "^3.6.5",
+    "sass": "^1.51.0",
     "view-design": "^4.2.0",
     "vue": "^2.6.11",
     "vue-router": "^3.3.3",
@@ -25,7 +27,6 @@
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
     "h-utils.js": "^0.5.3",
-    "node-sass": "^4.14.1",
     "sass-loader": "^8.0.2",
     "uglifyjs-webpack-plugin": "^1.1.0",
     "vue-template-compiler": "^2.6.11"
