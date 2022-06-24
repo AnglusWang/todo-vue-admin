@@ -386,7 +386,8 @@ export default {
 
 <style lang="scss" scoped>
 .login-container {
-  background-image: url('../assets/bg.png');
+  // background-image: url('../assets/bg.png');
+  background: linear-gradient(45deg, #686, #668);
   background-position: center;
   background-size: cover;
   position: relative;

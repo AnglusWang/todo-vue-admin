@@ -3,8 +3,10 @@ import axios from 'axios'
 import { apiUrl } from './url'
 import store from '../store'
 
+// 不加绝对路径，则需求配置服务器 nginx 代理转发后台接口
 // 创建实例
 const service = axios.create({
+  // baseURL: 'http://192.168.220.132:8088' + apiUrl,
   baseURL: apiUrl,
   timeout: 55000
 })
